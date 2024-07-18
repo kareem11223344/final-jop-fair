@@ -1,0 +1,22 @@
+:root {
+    -main-blue: #2863BD,
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+tbody tr {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+tbody tr:hover {
+    scale: 1.1;
+}
